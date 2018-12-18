@@ -1,0 +1,29 @@
+.section--form form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section--form {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.08);
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    [class*="col-"] {
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .component--heading {
+        padding-top: 25px;
+    }
+    .component--btn-button-orange {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}

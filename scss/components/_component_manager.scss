@@ -1,0 +1,35 @@
+.component--manager {
+    background: #191919;
+    position: fixed;
+    left: 0;
+    width: 180px;
+    height: 40vh;
+    padding-left: 20px;
+    margin-top: 550px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: #8D8D8D;
+    font-family: $brand-font;
+    z-index: 10000;
+    cursor: pointer;
+    li {
+        list-style: none;
+    }
+    h4 {
+        color: #8D8D8D;
+        text-transform: uppercase;
+        color: #8D8D8D;
+        &:hover {
+            color: #fff;
+        }
+    }
+    p,
+    img {
+        color: #336699;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+    p {
+        float: right;
+    }
+}

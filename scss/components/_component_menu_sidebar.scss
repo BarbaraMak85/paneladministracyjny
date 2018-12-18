@@ -1,0 +1,52 @@
+   .component--menu-sidebar {
+       background: #191919;
+       position: fixed;
+       left: 0;
+       top: 0;
+       width: 200px;
+       height: 100vh;
+       cursor: pointer;
+       font-family: $brand-font;
+       font-size: 14px;
+       z-index: 10000;
+       ul li {
+           padding: 20px 30px;
+           background: transparent;
+           border-left: 10px solid transparent;
+           transition: .5s;
+           margin: 0;
+       }
+       ul li:hover {
+           background: rgba(255, 255, 255, .1);
+           border-left: 10px solid $brand-main-color;
+           font-weight: bold;
+           color: #fff;
+           font-family: $brand-font;
+           font-size: 14px;
+       }
+       li {
+           list-style: none;
+           margin: 0;
+           color: $heading-color;
+       }
+       ul {
+           padding: 0;
+           color: $heading-color;
+       }
+       li,
+       a {
+           color: $heading-color;
+           text-decoration: none;
+           &:focus,
+           &:hover {
+               color: #fff;
+           }
+       }
+       i {
+           margin-right: 5px;
+           padding-right: 5px;
+       }
+       img {
+           margin-left: 35px;
+       }
+   }

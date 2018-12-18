@@ -1,0 +1,26 @@
+.component--button-green {
+    width: 122px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background: #E9E9E9;
+    color: #3399FF;
+    font-family: $brand-font;
+    cursor: pointer;
+    &:focus,
+    &:hover {
+        opacity: 0.5;
+        color: #8D8D8D;
+        border-radius: 3px;
+        border: none;
+        transition: all .3s ease-in-out;
+        text-align: center;
+    }
+    i {
+        color: #00CC66;
+        float: left;
+        margin-left: 5px
+    }
+}

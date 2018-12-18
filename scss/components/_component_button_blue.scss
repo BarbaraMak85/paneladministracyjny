@@ -1,0 +1,24 @@
+.component--button-blue {
+    width: 122px;
+    height: 40px;
+    font-size: 16px;
+    font-family: $brand-font;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background: #e9e9e9;
+    color: #3399FF;
+    &:focus,
+    &:hover {
+        opacity: 0.5;
+        color: #8D8D8D;
+        transition: all .3s ease-in-out;
+        text-align: center;
+        border: none;
+    }
+    i {
+        color: #3399FF;
+        float: left;
+        margin-left: 5px;
+    }
+}

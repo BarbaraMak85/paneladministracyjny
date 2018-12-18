@@ -1,0 +1,46 @@
+ .component--menu-topbar {
+     width: 100%;
+     position: fixed;
+     background: #Fff;
+     left: 0;
+     top: 0;
+     height: 50px;
+     font-family: $brand-font;
+     font-size: 14px;
+     z-index: 5;
+     ul {
+         margin: 0;
+     }
+     ul li {
+         float: right;
+     }
+     li {
+         list-style: none;
+         margin: 0;
+         color: $heading-color;
+         border-right: solid;
+         border-right-width: 0.8px;
+     }
+     li i {
+         padding: 15px;
+     }
+     i {
+         color: $heading-color;
+     }
+     a {
+         color: #336699;
+         font-size: 14px;
+         font-weight: bold;
+         text-decoration: none;
+     }
+     .fa-bell,
+     .fa-user-circle,
+     .fa-power-off,
+     .fa-wallet,
+     .fa-angle-down {
+         color: $heading-color;
+         &:hover {
+             color: $brand-main-color;
+         }
+     }
+ }

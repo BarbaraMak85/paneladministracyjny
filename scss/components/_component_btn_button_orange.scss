@@ -1,0 +1,24 @@
+.component--btn-button-orange {
+    width: 126px;
+    height: 40px;
+    color: $brand-main-color;
+    font-size: 18px;
+    font-family: $brand-font;
+    outline: none;
+    border: solid;
+    border-color: $brand-main-color;
+    border-radius: 4px;
+    background-color: #FFF;
+    cursor: pointer;
+    &:focus,
+    &:hover {
+        color: #FFF;
+        background-color: $brand-main-color;
+        border-radius: 4px;
+        border: none;
+        transition: all .4s ease-in-out;
+        width: 130px;
+        height: 41px;
+        outline: none;
+    }
+}

@@ -1,0 +1,56 @@
+  .component--links {
+      width: 70%;
+      margin: 0 auto;
+      padding: 0;
+      width: 685px;
+      height: 59px;
+      background-color: #fff;
+      border-top-style: solid;
+      border-top-width: 0.02px;
+      border-color: #E0E0E0;
+      font-family: $brand-font;
+      cursor: pointer;
+      &:focus,
+      &:hover {
+          background-color: #F9F9F9;
+      }
+      .component--links,
+      li:hover .fa-trash-alt {
+          color: #8D8D8D;
+      }
+      .component--links,
+      li:hover .fa-link {
+          color: $brand-main-color;
+      }
+      .fa-link,
+      .fa-trash-alt {
+          color: transparent;
+      }
+      li {
+          list-style: none;
+          padding: 5px;
+          padding-top: 20px;
+      }
+      span.title {
+          margin-right: 10px;
+          min-width: 150px;
+          color: $heading-color;
+          display: inline-block;
+      }
+      i {
+          float: right;
+          padding-left: 4px;
+          padding-top: 4px;
+          font-size: 14px;
+      }
+      a {
+          text-decoration: none;
+          color: #336699;
+          margin-left: 100px;
+      }
+      span,
+      li {
+          margin-left: 10px;
+          color: $heading-color;
+      }
+  }

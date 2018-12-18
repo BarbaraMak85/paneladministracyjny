@@ -1,0 +1,32 @@
+.component--form {
+    padding-top: 35px;
+    padding-bottom: 50px;
+    border-color: rgba(0, 0, 0, 0.08);
+    border-width: 0.7px;
+    font-family: $brand-font;
+    border-bottom-style: solid;
+    width: 700px;
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"] {
+        padding: 10px 80px;
+        font-size: 14px;
+        font-family: $brand-font;
+        background-color: #fafafa;
+        border: none;
+        color: $heading-color;
+        outline: none;
+        border: solid;
+        border-color: #D2D2D2;
+        border-width: 0.1px;
+        padding-top: 15px;
+        width: 50%;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    label {
+        display: inline-block;
+        width: 30%;
+    }
+}

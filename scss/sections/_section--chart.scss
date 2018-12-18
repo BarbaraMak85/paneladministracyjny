@@ -1,0 +1,44 @@
+.section--chart {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.08);
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    [class*="col-"] {
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .component--heading {
+        text-align: left;
+        padding-top: 25px;
+    }
+    .button {
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 50px;
+        margin-left: 12px;
+        margin-right: 15px;
+    }
+    .component--button-blue,
+    .component--button-orange,
+    .component--button-green {
+        margin-left: 12px;
+    }
+    img {
+        margin: auto;
+        display: block;
+        padding-bottom: 45px;
+        padding-top: 60px;
+    }
+    .component--fonts {
+        padding-top: 30px;
+        text-align: left;
+        margin-left: 40px;
+    }
+    form {
+        text-align: center;
+    }
+}

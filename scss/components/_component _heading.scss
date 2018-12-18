@@ -1,0 +1,11 @@
+.component--heading {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $heading-color;
+    border-bottom: solid;
+    border-color: $heading-color;
+    border-bottom-width: 0.02px;
+    height: 50px;
+    padding-left: 20px;
+    font-family: $brand-font;
+}
