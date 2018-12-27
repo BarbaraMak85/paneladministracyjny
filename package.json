@@ -16,7 +16,12 @@
         "build:sass": "node-sass --output-style compact -o css scss",
         "build:autoprefixer": "autoprefixer-cli css/style.css",
 
-        "build-dev:sass": "node-sass --output-style expanded --source-map true -o css scss"
+        "build-dev:sass": "node-sass --output-style expanded --source-map true -o css scss",
+        "watch": "npm-run-all  watch:*",
+
+        "watch:sassprefixer": "onchange scss/*.scss -- npm-run-all sassprefixer:*",
+        "sassprefixer:sass": "node-sass --output-style expanded --source-map true -o css scss",
+        "sassprefixer:autoprefixer": "autoprefixer-cli css/style.css"
 
     },
     "keywords": [],
